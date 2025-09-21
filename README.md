@@ -9,10 +9,6 @@ A sample/tutorial project to demonstrate the use of **IBM Db2** on Linux with SQ
 - [Contents](#contents)
 - [Prerequisites](#prerequisites)
 - [Setup & Installation](#setup--installation)
-- [Usage](#usage)
-- [Database Schema](#database-schema)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
