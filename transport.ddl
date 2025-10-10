@@ -83,8 +83,8 @@ create table SubmittedFor(
 create table Takes(
   personID int not null,
   tripID int not null,
-  dateOfTrip date,
-  primary key(personID, tripID),
+  dateOfTrip date not null,
+  primary key(personID, tripID, dateOfTrip),
   foreign key(personID) references Person(personID),
   foreign key(tripID) references Trip(tripID)
 );
@@ -106,9 +106,9 @@ create table Notifies(
 create table Issues(
   serviceAlertID int not null,
   routeID int not null,
-  startDate date,
+  startDate date not null,
   endDate date,
-  primary key(serviceAlertID, routeID),
+  primary key(serviceAlertID, routeID, startDate),
   foreign key(serviceAlertID) references ServiceAlert(serviceAlertID),
   foreign key(routeID) references Route(routeID)
 );
