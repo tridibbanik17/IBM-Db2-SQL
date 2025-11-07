@@ -1,8 +1,13 @@
+-- Name: Tridib Banik
+-- Student# 400514461
+
+connect to se3db3;
+
 -- Q1
-select TripID from Complaints group by tripID having count(*) > 2 order by count(*) desc;
+select TripID, count(*) as NumComplaints from Complaints group by tripID having count(*) > 2 order by count(*) desc;
 
 -- Q2
-select distinct p.PersonID, p.name from Person p join Drivers d on d.PersonID = p.PersonID join Trips t on t.DriverID = d.PersonID join Complaints c on c.TripID = t.TripID where c.Category = 'driver conduct' and c.Timestamp between '2024-11-01-00.00.00.000000' and '2024-11-10-23.59.59.999999' order by p.PersonID asc;
+select distinct p.PersonID, p.name from Person p join Drivers d on d.PersonID = p.PersonID join Trips t on t.DriverID = d.PersonID join Complaints c on c.TripID = t.TripID where c.Category = 'driver conduct' and c.Timestamp between '2024-11-01' and '2024-11-10' order by p.PersonID asc;
 
 -- Q3
 select r.RouteID, r.Name, count(distinct ri.PersonID) as NumRiders from Routes r join Trips t on r.RouteID = t.RouteID join Takes tk on t.TripID = tk.TripID join Riders ri on tk.RiderID = ri.PersonID where tk.Date between '2024-11-01' and '2024-12-31' group by r.RouteID, r.Name order by NumRiders desc;

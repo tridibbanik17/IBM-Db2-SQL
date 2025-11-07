@@ -1,0 +1,1357 @@
+﻿Name: Tridib Banik
+Student# 400514461
+
+
+Result of Q1: 
+
+TRIPID      NUMCOMPLAINTS
+----------- -------------
+  280306299             4
+  280340076             4
+  280389453             4
+  280406302             4
+  281496118             4
+  282492714             4
+  279652472             3
+  279667515             3
+  279668451             3
+  279668474             3
+  279668561             3
+  279672648             3
+  279688784             3
+  279740222             3
+  279785825             3
+  279788733             3
+  279789088             3
+  279791223             3
+  279816395             3
+  279820458             3
+  279824847             3
+  279830774             3
+  279835376             3
+  279957764             3
+  280239843             3
+  280239923             3
+  280241948             3
+  280250082             3
+  280250162             3
+  280250697             3
+  280259379             3
+  280260520             3
+  280261799             3
+  280263705             3
+  280265904             3
+  280266846             3
+  280302346             3
+  280307537             3
+  280308336             3
+  280311634             3
+  280315390             3
+  280325764             3
+  280333613             3
+  280334373             3
+  280338358             3
+  280339281             3
+  280342056             3
+  280344784             3
+  280345663             3
+  280347884             3
+  280348099             3
+  280367114             3
+  280382281             3
+  280382475             3
+  280388200             3
+  280397533             3
+  280399697             3
+  280418541             3
+  280419056             3
+  280420720             3
+  280429600             3
+  280437093             3
+  280438234             3
+  280453847             3
+  280457470             3
+  280461414             3
+  280461874             3
+  280463204             3
+  280464726             3
+  280465383             3
+  280471997             3
+  280473843             3
+  280474834             3
+  280479907             3
+  280481114             3
+  280482376             3
+  280486651             3
+  280488493             3
+  280488873             3
+  280489903             3
+  280882654             3
+  281339459             3
+  281339844             3
+  281340145             3
+  281376503             3
+  281377404             3
+  281377888             3
+  281378040             3
+  281380237             3
+  281523535             3
+  281568470             3
+  281572518             3
+  281577242             3
+  281661205             3
+  281662115             3
+  281826552             3
+  281827663             3
+  282234007             3
+  282235620             3
+  282410573             3
+  282429011             3
+  282429432             3
+  282463275             3
+  282464989             3
+  282494277             3
+  282523450             3
+  282606495             3
+  282609930             3
+  282641622             3
+  282643333             3
+  282643779             3
+  282644263             3
+  282650372             3
+  282680338             3
+  282680340             3
+  282683603             3
+  282840248             3
+  282840507             3
+  282842439             3
+  282845318             3
+  282847382             3
+  282849879             3
+  282851642             3
+  282854687             3
+  282855498             3
+  282858975             3
+  282859450             3
+  282860102             3
+  282860229             3
+  282980021             3
+  284268809             3
+
+
+  131 record(s) selected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Result of Q2: 
+
+
+
+
+
+
+PERSONID    NAME                                                                
+----------- ----------------------------------------------------------------------------------------------------
+       1036 Kathy Littel                                                        
+       1038 Jaime Pfannerstill                                                  
+       1071 Tracey Maggio                                                       
+       1074 Claudia Hayes                                                       
+       1082 Thelma Wintheiser                                                   
+       1103 Velma Crona Considine                                               
+       1114 Rosalie Wolf                                                        
+       1121 Nicolas Schuppe                                                     
+       1133 Derrick Kautzer                                                     
+       1141 Bertha Baumbach                                                     
+       1187 Kathleen Homenick                                                   
+       1232 Felicia Hilpert                                                     
+       1299 Ella Gottlieb                                                       
+       1399 Gregg Murazik                                                       
+       1425 Herman Fisher                                                       
+       1430 Muriel Crooks                                                       
+       1436 Marian Ledner                                                       
+       1456 Elizabeth Hansen                                                    
+       1461 Yvette Bauch                                                        
+       1468 Rita Lubowitz                                                       
+       1500 Brent Daniel                                                        
+       1504 Phyllis Bradtke                                                     
+       1512 Martha Hermiston                                                    
+       1524 Carole Hayes                                                        
+       1530 Erika Smith                                                         
+       1564 Bernard DAmore                                                      
+       1566 Beth Kovacek                                                        
+       1595 Marlene Koepp                                                       
+       1672 Toby Beier                                                          
+       1681 Ellis Rosenbaum                                                     
+       1723 Priscilla Bayer                                                     
+       1726 Tabitha Kautzer                                                     
+       1798 Al Schoen                                                           
+       1801 Isabel OKon                                                         
+       1839 Dale Gerlach                                                        
+       1868 Hattie Becker                                                       
+       1922 Ashley Nolan                                                        
+       1929 Sonja Reichel                                                       
+       1937 Joy Reichert                                                        
+       1943 Belinda Herzog                                                      
+       1950 Sandra Jacobs                                                       
+       2000 Lillie Stracke Bednar                                               
+       2087 Lorena Quitzon                                                      
+       2139 Julius Simonis                                                      
+       2150 Nicole Wiegand                                                      
+       2184 Lillie Monahan                                                      
+       2316 Alberta Ziemann                                                     
+       2348 Elsie Ebert Senger                                                  
+       2395 Justin Bahringer                                                    
+       2442 Kristin Grimes                                                      
+       2479 Crystal Wyman                                                       
+       2490 Brent Powlowski Sr.                                                 
+       2503 Antonia Cummings                                                    
+       2509 Greg Rogahn                                                         
+       2557 Eloise Kuphal                                                       
+       2599 Leslie Jacobs Jr.                                                   
+       2608 Herbert Goyette                                                     
+       2625 Delia Conroy                                                        
+       2665 Adam Bergnaum                                                       
+       2670 Deborah Blick                                                       
+       2694 Lamar Wiegand                                                       
+       2710 Traci Emmerich                                                      
+       2768 Olivia Wiza                                                         
+       2771 Linda Glover                                                        
+       2798 Olga Hudson                                                         
+       2805 Dennis Hettinger                                                    
+       2806 Rex Hayes                                                           
+       2811 Byron Smith                                                         
+       2901 Lisa Hoeger                                                         
+       2913 Marlon Kemmer Jr.                                                   
+       2956 Tammy Greenfelder                                                   
+       2963 Chris Legros                                                        
+       2984 Camille Schamberger                                                 
+       3035 Alexis Spencer                                                      
+       3072 Javier Abbott Reichel                                               
+       3073 Kirk Howe                                                           
+       3085 Vicki Franecki Jr.                                                  
+       3112 Guillermo Waters                                                    
+       3143 Beulah Aufderhar Waters                                             
+       3155 David Wiegand                                                       
+       3157 Loretta Hermann                                                     
+       3169 Carla Walsh                                                         
+       3211 Gregg Howe                                                          
+       3216 Timmy Mitchell                                                      
+       3332 Jessie Gleason                                                      
+       3336 Colleen Kling Glover                                                
+       3346 Dustin Wuckert                                                      
+       3390 Edmund Schoen                                                       
+       3414 Wallace Stoltenberg                                                 
+       3430 Russell Hills                                                       
+       3492 Dianna Bruen                                                        
+       3510 Harold Wiza                                                         
+       3515 Eric Kuvalis                                                        
+       3536 Rickey Prohaska                                                     
+       3552 Kerry Brekke                                                        
+       3588 Cora Leuschke                                                       
+       3645 Kayla Moore Volkman                                                 
+       3673 Jacquelyn Keeling                                                   
+       3753 Herman Kertzmann                                                    
+       3793 Rolando Williamson                                                  
+       3809 Noel OReilly                                                        
+       3893 Clarence Franey                                                     
+       3902 Guadalupe Bosco                                                     
+       3914 Teresa Thompson                                                     
+       3919 Conrad Lehner                                                       
+       3924 Amos Casper                                                         
+       3929 Lawrence Crist                                                      
+       3938 Sheryl Douglas                                                      
+       3960 Tracy Lindgren                                                      
+       3994 Jimmie Pagac                                                        
+       4045 Emanuel Dietrich                                                    
+       4121 Jessie Ankunding                                                    
+       4139 Shari Rowe                                                          
+       4154 Delores Powlowski                                                   
+       4214 Alberta Jacobson                                                    
+       4226 Doreen Renner                                                       
+       4278 Pam Runolfsson Yost                                                 
+       4344 Caleb Toy                                                           
+       4394 Patricia Jaskolski                                                  
+       4507 Darin Shanahan                                                      
+       4595 Carlos Ankunding Jr.                                                
+       4652 Angie Kassulke                                                      
+       4714 Wilson Will                                                         
+       4728 Carla Fritsch                                                       
+       4762 Luther Marks                                                        
+       4768 Mary Lemke                                                          
+       4796 Laurie Davis                                                        
+       4811 Tomas Muller                                                        
+       4821 Mattie Towne                                                        
+       4825 Emmett Tillman                                                      
+       4826 Lula Schaden                                                        
+       4859 Tony Schumm                                                         
+       4866 Jackie Olson                                                        
+       4868 Lowell Waelchi                                                      
+       4882 Kimberly Feeney                                                     
+       4927 Ron Medhurst                                                        
+       4935 Susan Jaskolski                                                     
+       4941 Terrence Bednar                                                     
+       4948 Joel Little                                                         
+       4963 Ada Sauer                                                           
+       4980 Katrina Brekke                                                      
+       5013 Clay Trantow                                                        
+       5106 Ron Ritchie                                                         
+       5119 Jean Schowalter                                                     
+       5152 Carol Kessler                                                       
+       5169 Jean Walter                                                         
+       5182 Erika Orn                                                           
+       5231 Damon Hartmann                                                      
+       5289 Gilbert Anderson                                                    
+       5291 Jamie Treutel                                                       
+       5325 Carole Armstrong                                                    
+       5354 Marjorie Cole                                                       
+       5380 Peter Kiehn                                                         
+       5382 Arthur Kuphal                                                       
+       5402 Cecelia Koepp                                                       
+       5448 Caleb Goodwin                                                       
+       5460 Micheal Rosenbaum                                                   
+       5470 Ann Schmitt                                                         
+       5525 Devin Abernathy                                                     
+       5562 Samantha Toy                                                        
+       5563 Anthony Moore                                                       
+       5567 Gertrude Larkin                                                     
+       5626 Terrence Padberg Sr.                                                
+       5636 Erika Stark                                                         
+       5704 Shannon Klocko                                                      
+       5705 Luz Stroman                                                         
+       5716 Raymond Bartell                                                     
+       5726 Emmett Breitenberg                                                  
+       5807 Orlando Satterfield                                                 
+       5886 Clifford McDermott                                                  
+       5888 Bobbie Abshire                                                      
+       5898 Sheila Franecki                                                     
+       5904 Shelly King                                                         
+       6037 Maureen Goyette                                                     
+       6062 Dominick OReilly                                                    
+       6075 Alexandra Marks                                                     
+       6080 Kathleen DuBuque                                                    
+       6157 Joel Conn                                                           
+       6186 Nathaniel Kirlin                                                    
+       6191 Jeanette Kub                                                        
+       6223 Blake Jacobson                                                      
+       6351 Maxine Stanton                                                      
+       6411 Mathew Kuhic                                                        
+       6441 Silvia Hammes Schmeler                                              
+       6468 Randall Legros                                                      
+       6486 Sherri Franey Jast                                                  
+       6514 Thomas Cassin                                                       
+       6556 Mable Berge Jr.                                                     
+       6570 Jermaine Rempel                                                     
+       6577 Carla Bayer                                                         
+       6619 Holly Langworth                                                     
+       6721 Clara Rodriguez                                                     
+       6755 Velma Erdman                                                        
+       6781 Alexis Stark                                                        
+       6825 Adam Bahringer                                                      
+       6826 Roman Mitchell                                                      
+       6851 Ida Batz                                                            
+       6878 Israel Kirlin                                                       
+       6880 Al Schulist                                                         
+       6899 Regina Koelpin                                                      
+       6924 Stacey Botsford                                                     
+       6986 Marilyn Boyer                                                       
+       7045 Israel Schuppe Robel                                                
+       7076 Stephanie Erdman                                                    
+       7156 Pat Fadel                                                           
+       7253 Saul Ankunding                                                      
+       7275 Blanca Grady                                                        
+       7288 Leslie Bosco                                                        
+       7390 Spencer Marks                                                       
+       7414 Hope Trantow                                                        
+       7456 Elsie Koepp                                                         
+       7481 Jacqueline Lynch                                                    
+       7530 Amelia Sipes                                                        
+       7629 Terrance Connelly                                                   
+       7751 Ethel Huels                                                         
+       7768 Daryl Russel                                                        
+       7810 Frederick Turner                                                    
+       7867 Miguel Will                                                         
+       7882 Drew Ferry                                                          
+       7899 Myrtle Klocko                                                       
+       7904 Billie King                                                         
+       7915 Jean Mueller                                                        
+       7969 Cody Labadie                                                        
+       7973 Marion Dare Jr.                                                     
+       8009 Christie Dare                                                       
+       8040 Donna Fritsch                                                       
+       8095 Misty Bruen                                                         
+       8131 Hubert Schneider                                                    
+       8147 Lynette Harris                                                      
+       8189 Ethel Connelly                                                      
+       8232 Thelma Walsh                                                        
+       8238 Bridget Mueller                                                     
+       8338 Allison Hilpert                                                     
+       8373 Dewey Morar                                                         
+       8430 Katherine Kozey                                                     
+       8450 Phil Lueilwitz                                                      
+       8454 Betty Cartwright                                                    
+       8467 Opal Auer                                                           
+       8500 Craig Johnson                                                       
+       8525 Michele Baumbach                                                    
+       8541 Lorraine Kuvalis                                                    
+       8580 Terrance Grady                                                      
+       8583 Lester Ebert                                                        
+       8593 Dolores Dicki McClure                                               
+       8597 Barbara OConnell                                                    
+       8607 Albert Trantow                                                      
+       8620 Rhonda Cole                                                         
+       8633 Edward Hackett                                                      
+       8636 Francisco Swift                                                     
+       8644 Orville Tremblay                                                    
+       8660 Patricia Kohler                                                     
+       8735 Ivan Harris                                                         
+       8767 Rebecca DuBuque                                                     
+       8810 Paul OReilly                                                        
+       8824 Veronica Spinka                                                     
+       8826 Simon Gutmann                                                       
+       8844 Jesse Ebert Jr.                                                     
+       8902 Neil Lubowitz                                                       
+       8906 Lewis Brekke                                                        
+       8907 Miguel Lowe                                                         
+       8985 Hubert Frami                                                        
+       8987 Becky Feest                                                         
+       9014 Dana Brekke                                                         
+       9042 Sylvester Jenkins                                                   
+       9046 Yvonne Walker                                                       
+       9064 Kristina Lakin                                                      
+       9080 Julio White                                                         
+       9096 Daryl OConner                                                       
+       9107 Maryann Feest                                                       
+       9111 Jordan Kreiger                                                      
+       9159 Barbara Bernier                                                     
+       9163 Brad Volkman                                                        
+       9224 Ruby Gutkowski                                                      
+       9254 Todd Yundt                                                          
+       9255 Nettie Murphy                                                       
+       9262 Clara Jaskolski                                                     
+       9265 Ray Feil                                                            
+       9270 Lance Wilkinson                                                     
+       9304 Celia Lindgren                                                      
+       9314 Brandon Stanton                                                     
+       9320 Miguel Wyman                                                        
+       9333 Kristopher Fahey                                                    
+       9340 Barry Armstrong                                                     
+       9347 Roland Brakus                                                       
+       9369 Ryan Robel                                                          
+       9408 Ethel Greenfelder                                                   
+       9497 Charlene Jacobson                                                   
+       9515 Ed Satterfield                                                      
+       9585 Lloyd Schamberger                                                   
+       9601 Sally Mosciski                                                      
+       9602 Wesley Hagenes                                                      
+       9603 Lorenzo McCullough Hodkiewicz                                       
+       9616 Jasmine Kemmer                                                      
+       9665 Wendell Legros                                                      
+       9686 Ivan Hodkiewicz                                                     
+       9708 Geraldine Kuhic                                                     
+       9723 Ernest Bode Abshire                                                 
+       9757 Gail Corkery                                                        
+       9758 Joanna Pollich                                                      
+       9777 Eugene Johns                                                        
+       9810 Naomi Schowalter                                                    
+       9867 Judith Kihn                                                         
+       9875 Amanda Rempel                                                       
+       9881 Teri Wilkinson                                                      
+       9883 Hector Schroeder                                                    
+       9904 Drew Marks                                                          
+       9913 Eduardo Osinski                                                     
+       9930 Lydia Davis                                                         
+       9957 Rodolfo Macejkovic                                                  
+       9970 Hope Johns                                                          
+       9976 Trevor Miller                                                       
+      10006 Carlton Leannon                                                     
+      10073 Shannon Mraz                                                        
+      10075 Dominic Murazik                                                     
+      10113 Stewart Marvin                                                      
+      10177 Heidi Borer                                                         
+      10215 Sara Labadie Walsh                                                  
+      10254 Casey Stamm                                                         
+      10269 Frank Reynolds                                                      
+      10297 Guy Little                                                          
+      10309 Rick Rath                                                           
+      10340 Forrest Shields                                                     
+      10374 Diana Rosenbaum                                                     
+      10432 Kyle Murray                                                         
+      10444 Martin Schumm                                                       
+      10474 Bradford Hermann                                                    
+      10499 Billy Crona                                                         
+      10619 Peggy Tremblay Farrell                                              
+      10633 Dora Toy                                                            
+      10639 Ana Block                                                           
+      10701 Rodney Jakubowski Sr.                                               
+      10729 Boyd Gibson                                                         
+      10775 Darren Mohr                                                         
+      10781 Tabitha Bernhard                                                    
+      10788 Marcella Farrell                                                    
+      10828 Woodrow Brakus                                                      
+      10835 Ricardo Runte                                                       
+      10858 Fannie Kirlin                                                       
+      10859 Doyle Hackett                                                       
+      10929 Jeremy Dooley                                                       
+      10968 Roderick Beer                                                       
+      10988 Dennis Gutkowski                                                    
+      10996 Nicolas Windler                                                     
+
+
+  343 record(s) selected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Result of Q3: 
+
+
+
+
+ROUTEID     NAME                                                                                                 NUMRIDERS
+----------- ---------------------------------------------------------------------------------------------------- -----------
+        747 YUL Aeroport  / Centre-Ville                                                                                8016
+          1 Ligne 1 - Verte                                                                                             7920
+          2 Ligne 2 - Orange                                                                                            7917
+        141 Jean-Talon Est                                                                                              7760
+        165 Cote-des-Neiges                                                                                             7717
+        439 Express Pie-IX                                                                                              7687
+         51 Edouard-Montpetit                                                                                           7560
+          5 Ligne 5 - Bleue                                                                                             7509
+        105 Sherbrooke                                                                                                  7406
+         67 Saint-Michel                                                                                                7125
+         18 Beaubien                                                                                                    7069
+          4 Ligne 4 - Jaune                                                                                             7063
+        106 Newman                                                                                                      6976
+         48 Perras                                                                                                      6778
+        161 Van Horne                                                                                                   6727
+         64 Grenet                                                                                                      6680
+         24 Sherbrooke                                                                                                  6658
+         33 Langelier                                                                                                   6646
+         55 Boulevard Saint-Laurent                                                                                     6551
+        777 Jean-Drapeau / Casino / Bonaventure                                                                         6528
+        121 Sauve / Cote-Vertu                                                                                          6503
+         49 Maurice-Duplessis                                                                                           6166
+         80 Avenue du Parc                                                                                              6004
+         44 Armand-Bombardier                                                                                           5866
+         90 Saint-Jacques                                                                                               5844
+         69 Gouin                                                                                                       5805
+        171 Henri-Bourassa                                                                                              5781
+         32 Lacordaire                                                                                                  5776
+        103 Monkland                                                                                                    5773
+        193 Jarry                                                                                                       5761
+        136 Viau                                                                                                        5721
+        470 Express Pierrefonds                                                                                         5715
+         97 Avenue-du-Mont-Royal                                                                                        5693
+        100 Cremazie                                                                                                    5657
+        131 De l`Assomption                                                                                             5653
+        189 Notre-Dame                                                                                                  5612
+         19 Chabanel / Marche Central                                                                                   5592
+        187 Rene-Levesque                                                                                               5486
+        113 Lapierre                                                                                                    5458
+        179 De l`Acadie                                                                                                 5447
+        197 Rosemont                                                                                                    5341
+        496 Express Victoria                                                                                            5294
+        112 Airlie                                                                                                      5240
+         61 Wellington                                                                                                  5148
+        144 Avenue des Pins                                                                                             5128
+        211 Bord-du-Lac                                                                                                 5083
+        150 Rene-Levesque                                                                                               5071
+         12 Ile-des-Soeurs                                                                                              5048
+         45 Papineau                                                                                                    5013
+        186 Sherbrooke-Est                                                                                              5010
+         11 Parc-du-Mont-Royal / Ridgewood                                                                              5009
+        139 Pie-IX                                                                                                      4968
+        170 Keller                                                                                                      4955
+        107 Verdun                                                                                                      4937
+        212 Sainte-Anne                                                                                                 4904
+        198 Broadway                                                                                                    4887
+         27 Boulevard Saint-Joseph                                                                                      4881
+         36 Monk                                                                                                        4853
+        164 Dudemaine                                                                                                   4824
+         57 Charlevoix                                                                                                  4821
+        125 Ontario                                                                                                     4794
+         95 Belanger                                                                                                    4777
+        215 Henri-Bourassa                                                                                              4776
+         37 Jolicoeur                                                                                                   4740
+         94 D`Iberville                                                                                                 4732
+        192 Robert                                                                                                      4724
+         34 Sainte-Catherine                                                                                            4722
+        160 Barclay                                                                                                     4721
+        180 De Salaberry                                                                                                4720
+         28 Honore-Beaugrand                                                                                            4719
+        129 Cote-Sainte-Catherine                                                                                       4682
+        140 Fleury                                                                                                      4634
+         10 De Lorimier                                                                                                 4577
+        195 Dorval / Angrignon                                                                                          4573
+        202 Dawson                                                                                                      4573
+         93 Jean-Talon                                                                                                  4548
+         47 Masson                                                                                                      4535
+        110 Centrale                                                                                                    4531
+        108 Bannantyne                                                                                                  4526
+         38 De l`Eglise                                                                                                 4497
+        185 Sherbrooke                                                                                                  4494
+         92 Jean-Talon Ouest                                                                                            4493
+        114 Angrignon                                                                                                   4490
+        177 Thimens                                                                                                     4489
+         71 Pointe-Saint-Charles                                                                                        4488
+         74 Bridge                                                                                                      4471
+         68 Pierrefonds                                                                                                 4438
+         35 Griffintown                                                                                                 4427
+         26 Mercier-Est                                                                                                 4395
+        168 Cite-du-Havre                                                                                               4395
+         66 The Boulevard                                                                                               4378
+         70 Bois-Franc                                                                                                  4368
+        146 Christophe-Colomb / Meilleur                                                                                4345
+         86 Pointe-aux-Trembles                                                                                         4336
+        128 Saint-Laurent                                                                                               4323
+         43 Monselet                                                                                                    4315
+        209 Des Sources                                                                                                 4315
+        208 Brunswick                                                                                                   4294
+        162 Westminster                                                                                                 4289
+        124 Victoria                                                                                                    4275
+        123 Dollard / Shevchenko                                                                                        4273
+        207 Jacques-Bizard                                                                                              4273
+        203 Carson                                                                                                      4272
+         30 Saint-Denis / Saint-Hubert                                                                                  4271
+        102 Somerled                                                                                                    4265
+        176 Berlioz                                                                                                     4187
+        205 Gouin                                                                                                       4182
+        104 Cavendish                                                                                                   4155
+        201 Saint-Charles / Saint-Jean                                                                                  4148
+        204 Cardinal                                                                                                    4114
+         99 Villeray                                                                                                    4110
+         81 Saint-Jean-Baptiste                                                                                         4105
+         22 Notre-Dame                                                                                                  4097
+        206 Roger-Pilon                                                                                                 4062
+         16 Graham                                                                                                      4058
+        217 Anse-a-l`Orme                                                                                               4048
+         29 Rachel                                                                                                      3989
+         31 Saint-Denis                                                                                                 3966
+         85 Hochelaga                                                                                                   3952
+         17 Decarie                                                                                                     3878
+         50 Vieux-Montreal / Vieux-Port                                                                                 3809
+        166 Queen-Mary                                                                                                  3796
+        200 Sainte-Anne-de-Bellevue                                                                                     3550
+        196 Parc-Industriel-Lachine                                                                                     3249
+        119 Rockland                                                                                                    3113
+        138 Notre-Dame-de-Grace                                                                                         3048
+        968 Trainbus Roxboro / Cote-Vertu                                                                               2785
+        117 O`Brien                                                                                                     2515
+         14 Atateken                                                                                                    2476
+        460 Express Metropolitaine                                                                                      2420
+         63 Girouard                                                                                                    2383
+         72 Alfred-Nobel                                                                                                2377
+        172 Du Golf                                                                                                     2299
+         54 Charland / Chabanel                                                                                         2287
+        469 Express Henri-Bourassa                                                                                      2163
+        174 Cote-Vertu-Ouest                                                                                            2132
+        449 Express Riviere-des-Prairies                                                                                2014
+        115 Pare                                                                                                        1856
+        711 Parc-du-Mont-Royal / Oratoire                                                                               1814
+         41 Quartier Saint-Michel / Ahuntsic                                                                            1786
+        405 Express Bord-du-Lac                                                                                         1683
+        183 Gouin Est                                                                                                   1678
+        491 Express Provost                                                                                             1621
+        213 Parc-Industriel-Saint-Laurent                                                                               1566
+         25 Angus                                                                                                       1547
+        467 Express Saint-Michel                                                                                        1453
+        485 Express Antoine-Faucon                                                                                      1444
+        225 Hymus                                                                                                       1406
+        190 Norman                                                                                                      1382
+        432 Express Lacordaire                                                                                          1375
+        468 Express Pierrefonds / Gouin                                                                                 1356
+        419 Express John Abbott                                                                                         1249
+        175 Griffith / Saint-Francois                                                                                   1243
+         46 Casgrain                                                                                                    1242
+        101 Saint-Patrick                                                                                               1139
+        216 Transcanadienne                                                                                             1019
+         40 Henri-Bourassa-Est                                                                                           944
+        448 Express Maurice-Duplessis                                                                                    927
+        487 Express Bout-de-l`Ile                                                                                        909
+        409 Express Des Sources                                                                                          838
+        425 Express Anse-a-l`Orme                                                                                        826
+        811 Navette Services sante                                                                                       823
+        440 Express Charleroi                                                                                            799
+        427 Express Saint-Joseph                                                                                         748
+        411 Express Lionel-Groulx                                                                                        717
+        218 Antoine-Faucon                                                                                               702
+        188 Couture                                                                                                      691
+        430 Express Pointe-aux-Trembles                                                                                  648
+        420 Express Notre-Dame-de-Grace                                                                                  632
+         56 Saint-Hubert                                                                                                 622
+        401 Express Saint-Charles                                                                                        608
+        822 Navette Longue-Pointe                                                                                        601
+        219 Chemin Sainte-Marie                                                                                          589
+        486 Express Sherbrooke                                                                                           588
+         13 Christophe-Colomb                                                                                            565
+        480 Express du Parc                                                                                              550
+         73 Dalton                                                                                                       546
+         52 de Liege                                                                                                     541
+        465 Express Cote-des-Neiges                                                                                      523
+         39 Des Grandes-Prairies                                                                                         495
+        445 Express Papineau                                                                                             489
+        410 Express Notre-Dame                                                                                           481
+        407 Express Ile-Bizard                                                                                           469
+        444 Express Cegep Marie-Victorin                                                                                 458
+        475 Express Dollard-des-Ormeaux                                                                                  448
+        135 De l`Esplanade                                                                                               348
+        428 Express Parcs industriels de l`Est                                                                           336
+        872 Ile-des-Soeurs                                                                                               270
+        220 Kieran                                                                                                       137
+        126 Thimens / Grenet                                                                                              36
+
+
+  190 record(s) selected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Result of Q4: 
+
+
+NAME
+----------------------------------------------------------------------------------------------------
+Cite-du-Havre
+Griffintown
+Ile-des-Soeurs
+Ontario
+
+
+  4 record(s) selected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Result of Q5: 
+
+
+
+
+
+
+
+
+PERSONID
+-----------
+
+
+  0 record(s) selected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Result of Q6:
+ 
+
+
+NAME                                                                            
+----------------------------------------------------------------------------------------------------
+Airlie                                                                          
+Alfred-Nobel                                                                    
+Angrignon                                                                       
+Angus                                                                           
+Anse-a-l`Orme                                                                   
+Antoine-Faucon                                                                  
+Armand-Bombardier                                                               
+Atateken                                                                        
+Avenue des Pins                                                                 
+Avenue du Parc                                                                  
+Avenue-du-Mont-Royal                                                            
+Bannantyne                                                                      
+Barclay                                                                         
+Beaubien                                                                        
+Belanger                                                                        
+Berlioz                                                                         
+Bois-Franc                                                                      
+Bord-du-Lac                                                                     
+Boulevard Saint-Joseph                                                          
+Boulevard Saint-Laurent                                                         
+Bridge                                                                          
+Broadway                                                                        
+Brunswick                                                                       
+Cardinal                                                                        
+Carson                                                                          
+Casgrain                                                                        
+Cavendish                                                                       
+Centrale                                                                        
+Chabanel / Marche Central                                                       
+Charland / Chabanel                                                             
+Charlevoix                                                                      
+Chemin Sainte-Marie                                                             
+Christophe-Colomb                                                               
+Christophe-Colomb / Meilleur                                                    
+Cite-du-Havre                                                                   
+Cote-Sainte-Catherine                                                           
+Cote-Vertu-Ouest                                                                
+Cote-des-Neiges                                                                 
+Couture                                                                         
+Cremazie                                                                        
+D`Iberville                                                                     
+Dalton                                                                          
+Dawson                                                                          
+De Lorimier                                                                     
+De Salaberry                                                                    
+De l`Acadie                                                                     
+De l`Assomption                                                                 
+De l`Eglise                                                                     
+De l`Esplanade                                                                  
+Decarie                                                                         
+Des Grandes-Prairies                                                            
+Des Sources                                                                     
+Dollard / Shevchenko                                                            
+Dorval / Angrignon                                                              
+Du Golf                                                                         
+Dudemaine                                                                       
+Edouard-Montpetit                                                               
+Express Anse-a-l`Orme                                                           
+Express Antoine-Faucon                                                          
+Express Bord-du-Lac                                                             
+Express Bout-de-l`Ile                                                           
+Express Cegep Marie-Victorin                                                    
+Express Charleroi                                                               
+Express Cote-des-Neiges                                                         
+Express Des Sources                                                             
+Express Dollard-des-Ormeaux                                                     
+Express Henri-Bourassa                                                          
+Express Ile-Bizard                                                              
+Express John Abbott                                                             
+Express Lacordaire                                                              
+Express Lionel-Groulx                                                           
+Express Maurice-Duplessis                                                       
+Express Metropolitaine                                                          
+Express Notre-Dame                                                              
+Express Notre-Dame-de-Grace                                                     
+Express Papineau                                                                
+Express Parcs industriels de l`Est                                              
+Express Pie-IX                                                                  
+Express Pierrefonds                                                             
+Express Pierrefonds / Gouin                                                     
+Express Pointe-aux-Trembles                                                     
+Express Provost                                                                 
+Express Riviere-des-Prairies                                                    
+Express Saint-Charles                                                           
+Express Saint-Joseph                                                            
+Express Saint-Michel                                                            
+Express Sherbrooke                                                              
+Express Victoria                                                                
+Express du Parc                                                                 
+Fleury                                                                          
+Girouard                                                                        
+Gouin                                                                           
+Gouin Est                                                                       
+Graham                                                                          
+Grenet                                                                          
+Griffintown                                                                     
+Griffith / Saint-Francois                                                       
+Henri-Bourassa                                                                  
+Henri-Bourassa-Est                                                              
+Hochelaga                                                                       
+Honore-Beaugrand                                                                
+Hymus                                                                           
+Ile-des-Soeurs                                                                  
+Jacques-Bizard                                                                  
+Jarry                                                                           
+Jean-Drapeau / Casino / Bonaventure                                             
+Jean-Talon                                                                      
+Jean-Talon Est                                                                  
+Jean-Talon Ouest                                                                
+Jolicoeur                                                                       
+Keller                                                                          
+Kieran                                                                          
+Lacordaire                                                                      
+Langelier                                                                       
+Lapierre                                                                        
+Ligne 1 - Verte                                                                 
+Ligne 2 - Orange                                                                
+Ligne 4 - Jaune                                                                 
+Ligne 5 - Bleue                                                                 
+Masson                                                                          
+Maurice-Duplessis                                                               
+Mercier-Est                                                                     
+Monk                                                                            
+Monkland                                                                        
+Monselet                                                                        
+Navette Longue-Pointe                                                           
+Navette Services sante                                                          
+Newman                                                                          
+Norman                                                                          
+Notre-Dame                                                                      
+Notre-Dame-de-Grace                                                             
+O`Brien                                                                         
+Ontario                                                                         
+Papineau                                                                        
+Parc-Industriel-Lachine                                                         
+Parc-Industriel-Saint-Laurent                                                   
+Parc-du-Mont-Royal / Oratoire                                                   
+Parc-du-Mont-Royal / Ridgewood                                                  
+Pare                                                                            
+Perras                                                                          
+Pie-IX                                                                          
+Pierrefonds                                                                     
+Pointe-Saint-Charles                                                            
+Pointe-aux-Trembles                                                             
+Quartier Saint-Michel / Ahuntsic                                                
+Queen-Mary                                                                      
+Rachel                                                                          
+Rene-Levesque                                                                   
+Robert                                                                          
+Rockland                                                                        
+Roger-Pilon                                                                     
+Rosemont                                                                        
+Saint-Charles / Saint-Jean                                                      
+Saint-Denis                                                                     
+Saint-Denis / Saint-Hubert                                                      
+Saint-Hubert                                                                    
+Saint-Jacques                                                                   
+Saint-Jean-Baptiste                                                             
+Saint-Laurent                                                                   
+Saint-Michel                                                                    
+Saint-Patrick                                                                   
+Sainte-Anne                                                                     
+Sainte-Anne-de-Bellevue                                                         
+Sainte-Catherine                                                                
+Sauve / Cote-Vertu                                                              
+Sherbrooke                                                                      
+Sherbrooke-Est                                                                  
+Somerled                                                                        
+The Boulevard                                                                   
+Thimens                                                                         
+Thimens / Grenet                                                                
+Trainbus Roxboro / Cote-Vertu                                                   
+Transcanadienne                                                                 
+Van Horne                                                                       
+Verdun                                                                          
+Viau                                                                            
+Victoria                                                                        
+Vieux-Montreal / Vieux-Port                                                     
+Villeray                                                                        
+Wellington                                                                      
+Westminster                                                                     
+YUL Aeroport  / Centre-Ville                                                    
+de Liege                                                                        
+
+
+  183 record(s) selected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Result of Q7:
+
+
+
+
+RIDERNAME                                                                                            COMPLAINTTIME              COMPLAINTCATEGORY                                  DRIVERNAME                                                                                           LICENSENO                                          ROUTENAME                                                                                            DIRECTION
+---------------------------------------------------------------------------------------------------- -------------------------- -------------------------------------------------- ---------------------------------------------------------------------------------------------------- -------------------------------------------------- ---------------------------------------------------------------------------------------------------- -----------
+Natasha Krajcik                                                                                      2024-12-18-04.39.39.000000 overcrowding                                       Pearl Mueller                                                                                        BUC303847                                          Avenue des Pins                                                                                                0
+
+
+  1 record(s) selected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Result of Q8:
+
+
+DRIVERNAME                                                                                           TOTALTRIPS  TOTALPASSENGERS
+---------------------------------------------------------------------------------------------------- ----------- ---------------
+Heidi Borer                                                                                                   89             890
+Eduardo Leuschke                                                                                              88             880
+Miranda McLaughlin                                                                                            88             880
+Bradford Hermann                                                                                              86             860
+Susan Hyatt                                                                                                   85             850
+Mildred Bernhard                                                                                              84             840
+Devin Abernathy                                                                                               83             830
+Emmett Breitenberg                                                                                            83             830
+Gerard Tremblay                                                                                               83             830
+Kristen Konopelski                                                                                            83             830
+Kristin Grimes                                                                                                83             830
+Shelly King                                                                                                   83             830
+Doris Torphy                                                                                                  82             820
+Daryl OConner                                                                                                 81             810
+Elsie McLaughlin                                                                                              80             800
+Kimberly Feeney                                                                                               80             800
+Ruby Gutkowski                                                                                                80             800
+Sandra Moen                                                                                                   80             800
+Wilfred Marvin                                                                                                80             800
+
+
+  19 record(s) selected.
