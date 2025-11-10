@@ -1,0 +1,166 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{breqn} 
+\usepackage[left=0.7in, right=0.7in, top=1in, bottom=1in]{geometry}
+
+\title{Relational Algebra}
+\date{November 7, 2025}
+
+\begin{document}
+\maketitle
+
+\section{Q1}
+\begin{dmath*}
+\tau_{\text{NumComplaints DESC}}\Big(
+  \sigma_{\text{NumComplaints} > 2}\Big(
+    \gamma_{\text{TripID},\,\text{COUNT(*)}\rightarrow\text{NumComplaints}}(\text{Complaints})
+  \Big)
+\Big)
+\end{dmath*}
+
+\section{Q2}
+\begin{dmath*}
+J := \rho_{p}(\text{Person})
+  \bowtie_{p.\text{PersonID}=d.\text{PersonID}} \rho_{d}(\text{Drivers})
+  \bowtie_{d.\text{PersonID}=t.\text{DriverID}} \rho_{t}(\text{Trips})
+  \bowtie_{t.\text{TripID}=c.\text{TripID}} \rho_{c}(\text{Complaints})
+\end{dmath*}
+\begin{dmath*}
+C_{\text{filters}} :=
+  (c.\text{Category}=\text{'driver conduct'})
+  \wedge (c.\text{Timestamp}\ge \text{'2024-11-01'})
+  \wedge (c.\text{Timestamp}\le \text{'2024-11-10'})
+\end{dmath*}
+\begin{dmath*}
+\tau_{p.\text{PersonID ASC}}\Big(
+  \delta\big(\pi_{p.\text{PersonID},\,p.\text{Name}}\big(
+    \sigma_{C_{\text{filters}}}(J)
+  \big)\big)
+\Big)
+\end{dmath*}
+
+\section{Q3}
+\begin{dmath*}
+J := \rho_{r}(\text{Routes})
+  \bowtie_{r.\text{RouteID}=t.\text{RouteID}} \rho_{t}(\text{Trips})
+  \bowtie_{t.\text{TripID}=tk.\text{TripID}} \rho_{tk}(\text{Takes})
+  \bowtie_{tk.\text{RiderID}=ri.\text{PersonID}} \rho_{ri}(\text{Riders})
+\end{dmath*}
+\begin{dmath*}
+J_{\text{filtered}} :=
+  \sigma_{tk.\text{Date}\ge \text{'2024-11-01'} \wedge tk.\text{Date}\le \text{'2024-12-31'}}(J)
+\end{dmath*}
+\begin{dmath*}
+\tau_{\text{NumRiders DESC}}\Big(
+  \gamma_{r.\text{RouteID},\,r.\text{Name},\,\text{COUNT}(\delta(ri.\text{PersonID}))\rightarrow\text{NumRiders}}(J_{\text{filtered}})
+\Big)
+\end{dmath*}
+
+\section{Q4}
+\begin{dmath*}
+S_{\text{filtered}} := \sigma_{\text{SubwayStation}=\text{'STATION\_M140'}}(\rho_{s}(\text{Stops}))
+\end{dmath*}
+\begin{dmath*}
+J := \rho_{r}(\text{Routes})
+  \bowtie_{r.\text{RouteID}=t.\text{RouteID}} \rho_{t}(\text{Trips})
+  \bowtie_{t.\text{TripID}=st.\text{TripID}} \rho_{st}(\text{Stoptimes})
+  \bowtie_{st.\text{StopID}=s.\text{StopID}} S_{\text{filtered}}
+\end{dmath*}
+\begin{dmath*}
+\delta\big(\pi_{r.\text{Name}}(J)\big)
+\end{dmath*}
+
+\section{Q5}
+\begin{dmath*}
+A := \pi_{\text{PersonID}}(\rho_{ri}(\text{Riders}))
+\end{dmath*}
+\begin{dmath*}
+B_{\text{joined}} := 
+  \sigma_{tk.\text{Date}\ge \text{'2024-12-01'} \wedge tk.\text{Date}\le \text{'2024-12-31'}}\big(
+    \rho_{tk}(\text{Takes}) \bowtie_{tk.\text{TripID}=t.\text{TripID}} \rho_{t}(\text{Trips})
+  \big)
+\end{dmath*}
+\begin{dmath*}
+B := \pi_{tk.\text{RiderID}}(B_{\text{joined}})
+\end{dmath*}
+\begin{dmath*}
+\tau_{\text{PersonID ASC}}\Big(A \;-\; \rho_{\text{RiderID}\rightarrow\text{PersonID}}(B)\Big)
+\end{dmath*}
+
+\section{Q6}
+\begin{dmath*}
+J := \rho_{r}(\text{Routes})
+  \bowtie_{r.\text{RouteID}=t.\text{RouteID}} \rho_{t}(\text{Trips})
+  \bowtie_{t.\text{ScheduleID}=s.\text{ScheduleID}} \rho_{s}(\text{ScheduleDays})
+\end{dmath*}
+\begin{dmath*}
+J_{\text{filtered}} := \sigma_{(\,s.\text{ScheduleBitmap}\ \mathbin{\&}\ 3\,)\neq 3}(J)
+\end{dmath*}
+\begin{dmath*}
+G := \gamma_{r.\text{Name},\,\text{COUNT}(t.\text{TripID})\rightarrow \text{Cnt}}(J_{\text{filtered}})
+\end{dmath*}
+\begin{dmath*}
+\delta\big(\pi_{r.\text{Name}}(\sigma_{\text{Cnt}\ge 1}(G))\big)
+\end{dmath*}
+
+\section{Q7}
+\begin{dmath*}
+J_{\text{joined}} := \rho_{p1}(\text{Person})
+  \bowtie_{p1.\text{PersonID}=ri.\text{PersonID}} \rho_{ri}(\text{Riders})
+  \bowtie_{ri.\text{PersonID}=c.\text{RiderID}} \rho_{c}(\text{Complaints})
+  \bowtie_{c.\text{TripID}=t.\text{TripID}} \rho_{t}(\text{Trips})
+  \bowtie_{t.\text{DriverID}=d.\text{PersonID}} \rho_{d}(\text{Drivers})
+  \bowtie_{d.\text{PersonID}=p2.\text{PersonID}} \rho_{p2}(\text{Person})
+  \bowtie_{t.\text{RouteID}=r.\text{RouteID}} \rho_{r}(\text{Routes})
+\end{dmath*}
+\begin{dmath*}
+C_{\text{filters}} := (c.\text{Category}=\text{'overcrowding'}) \wedge (c.\text{Timestamp}\ge \text{'2024-12-18 00:00:00.000000'})
+\wedge (c.\text{Timestamp}\le \text{'2024-12-18 23:59:59.999999'}) \wedge (ri.\text{PersonID}=1313)
+\end{dmath*}
+\begin{dmath*}
+J := \sigma_{C_{\text{filters}}}(J_{\text{joined}})
+\end{dmath*}
+\begin{dmath*}
+\pi_{\begin{aligned}
+& p1.\text{Name}\rightarrow\text{RiderName},\; 
+c.\text{Timestamp}\rightarrow\text{ComplaintTime},\\
+& c.\text{Category}\rightarrow\text{ComplaintCategory},\; 
+p2.\text{Name}\rightarrow\text{DriverName},\\
+& d.\text{LicenseNo}\rightarrow\text{LicenseNo},\; 
+r.\text{Name}\rightarrow\text{RouteName},\\
+& t.\text{Direction}\rightarrow\text{Direction}
+\end{aligned}}
+(J)
+\end{dmath*}
+
+
+
+\section{Q8}
+\begin{dmath*}
+J_{\text{joined}} := \rho_{t}(\text{Trips})
+  \bowtie_{t.\text{TripID}=tk.\text{TripID}} \rho_{tk}(\text{Takes})
+  \bowtie_{tk.\text{RiderID}=ri.\text{PersonID}} \rho_{ri}(\text{Riders})
+  \bowtie_{t.\text{DriverID}=p1.\text{PersonID}} \rho_{p1}(\text{Person})
+  \bowtie_{p1.\text{PersonID}=d.\text{PersonID}} \rho_{d}(\text{Drivers})
+. \bowtie_{t.\text{ScheduleID}=s.\text{ScheduleID}} \rho_{s}(\text{ScheduleDays})
+\end{dmath*}
+\begin{dmath*}
+C_{\text{filters}} := (s.\text{StartDate}\le \text{'20241231'}) \wedge (s.\text{EndDate}\ge \text{'20241028'})
+\wedge (s.\text{ScheduleBitmap}=124)
+\end{dmath*}
+\begin{dmath*}
+J := \sigma_{C_{\text{filters}}}(J_{\text{joined}})
+\end{dmath*}
+\begin{dmath*}
+G := \gamma_{p1.\text{Name},\,\text{COUNT}(\delta(t.\text{TripID}))\rightarrow\text{TotalTrips},\,\text{COUNT}(tk.\text{RiderID})\rightarrow\text{TotalPassengers}}(J)
+\end{dmath*}
+\begin{dmath*}
+H := \sigma_{\text{TotalPassengers}\ge 800}(G)
+\end{dmath*}
+\begin{dmath*}
+\tau_{\text{TotalTrips DESC}}\Big(\pi_{p1.\text{Name}\rightarrow\text{DriverName},\,\text{TotalTrips},\,\text{TotalPassengers}}(H)\Big)
+\end{dmath*}
+
+\end{document}
