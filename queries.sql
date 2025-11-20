@@ -19,7 +19,7 @@ select distinct r.Name from Routes r join Trips t on r.RouteID = t.RouteID join 
 select ri.PersonID from Riders ri where ri.PersonID not in (select tk.RiderID from Takes tk join Trips t on tk.TripID = t.TripID where tk.Date between '2024-12-01' and '2024-12-31') order by ri.PersonID asc;
 
 -- Q6
-select distinct r.Name from Routes r join Trips t on r.RouteID = t.RouteID join ScheduleDays s on t.ScheduleID = s.ScheduleID where (s.ScheduleBitmap & 3) <> 3 group by r.Name having count(t.TripID) >= 1;
+select distinct r.Name from Routes r join Trips t on r.RouteID = t.RouteID join ScheduleDays s on t.ScheduleID = s.ScheduleID where (s.ScheduleBitmap & 3) = 0 group by r.Name having count(t.TripID) >= 1;
 
 -- Q7
 select p1.Name as RiderName, c.Timestamp as ComplaintTime, c.Category as ComplaintCategory, p2.Name as DriverName, d.LicenseNo as LicenseNo, r.Name as RouteName, t.Direction as Direction from Person p1 join Riders ri on p1.PersonID = ri.PersonID join Complaints c on ri.PersonID = c.RiderID join Trips t on c.TripID = t.TripID join Drivers d on t.DriverID = d.PersonID join Person p2 on d.PersonID = p2.PersonID join Routes r on t.RouteID = r.RouteID where c.Category = 'overcrowding' and c.Timestamp between '2024-12-18-00.00.00.000000' and '2024-12-18-23.59.59.999999' and ri.PersonID = 1313; 
