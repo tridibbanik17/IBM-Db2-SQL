@@ -1,6 +1,3 @@
--- Name: Tridib Banik
--- Student# 400514461
-
 connect to se3db3;
 
 -- Q1
