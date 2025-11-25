@@ -1,0 +1,114 @@
+Question 1 (15 marks) Finding Keys
+Consider a relational schema R(A, B, C, D, E, F, G, H), and the set of functional dependencies
+F = {DF → AC
+AEH → BD
+C → AF H
+C → ACG
+E → F
+BC → EH
+A → B
+DE → HB
+ABD → F GH
+H → EA}
+Find all candidate keys (i.e., minimal keys) of relation R. Show your work (derivation) of each key.
+You may either use the closure test or Armstrong’s axioms to show the derivation of each key.
+
+Answer to the Question Number 1
+
+DF → A 
+DF → C 
+AEH → B 
+AEH → D
+C → A 
+C → F 
+C → H 
+C → A 
+C → C 
+C → G 
+E → F 
+BC → E 
+BC → H 
+A → B
+DE → H 
+DE → B 
+ABD → F 
+ABD → G 
+ABD → H
+H → E
+H → A
+
+
+DF → A can be removed because DF+ = DFCA… that contains A
+DF → C can’t be removed because DF+ = DF that doesn’t contain C
+AEH → B can be removed because AEH+ = AEHDFB… that contains B
+AEH → D can’t be removed because AEH+ = AEHFB that doesn’t contain D
+C → A can be removed because C+ = CFHA… that contains A
+C → F can be removed because C+ = CHAGBEF… that contains F
+C → H can be removed because C+ = CAGBEFH… that contains H
+C → A can’t be removed because C+ = CG that doesn’t contain A
+C → C can be removed because it is trivial
+C → G can be removed because C+ = CABEFHDG that contains G
+E → F can’t be removed because there is no other LHS with E
+BC → E can be removed because BC+ = BCHE… that contains E
+BC → H can’t be removed because BC+ = BCA that doesn’t contain H
+A → B can’t be removed because there is no other LHS with A
+DE → H can be removed because DE+ = DEBFCAH that contains H
+DE → B can be removed because DE+ = DEFCABGH that contains B
+ABD → F can be removed because ABD+ = ABDGHEF… that contains F
+ABD → G can’t be removed because ABD+ = ABDHEF that doesn’t contain G
+ABD → H can’t be removed because ABD+ = ABDG that doesn’t contain H
+H → E can’t be removed because H+ = HAB that doesn’t contain E
+H → A can’t be removed because H+ = HEF that doesn’t contain A
+
+So, the remaining FDs are 
+DF → C
+AEH → D
+C → A 
+E → F 
+BC → H 
+A → B
+ABD → G 
+ABD → H
+H → E
+H → A
+
+Now, break down LHS to remove redundancy.
+D → C , F → C
+A → D , E → D, H → D 
+C → A 
+E → F 
+B → H, C → H 
+A → B
+A → G, B → G, D → G
+A → H , B → H , D → H 
+H → E
+H → A
+
+
+For D → C, D+ = DCABGHEF; Since F can be derived, it is redundant
+For F → C, F+ = FCAB; Since D can be derived, it is not redundant
+For A → D, A+ = ADBGHE; Since E, H can be derived, it is redundant
+For E → D, E+ = EDFGC; Since A, H can’t be derived, it is not redundant
+For H → D, H+ = HDEAF; Since E, A can be derived, it is redundant
+For B → H, B+ = BHEADGF; Since C can’t be derived, it is not redundant
+For C → H, C+ = CHAB…; Since B can be derived, it is redundant
+For A → G, A+ = AGB; Since D can’t be derived, it is not redundant
+For B → G, B+ = BG; Since A, D can’t be derived, it is not redundant
+For D → G, D+ = DG; Since A, B can’t be derived, it is not redundant
+For A → H, A+ = AHEDFBC; Since B, D can be derived, it is redundant
+For B → H, B+ = BHEADFGC; Since D, A can be derived, it is redundant
+For D → H, D+ = DHEAGFCB; Since A, B can be derived, it is redundant
+
+So, the minimal basis is {F → C, E → DF, C → A, B → HG, A → BG, D → G, H → EA}
+
+Now, compute the closure of each LHS.
+A+ = ABGHEDFC; since it contains all of R, it’s a candidate key.
+B+ = BHGEADFC; since it contains all of R, it’s a candidate key.
+C+ = CABGHEDF; since it contains all of R, it’s a candidate key.
+D+ = DG; since it doesn’t contain all of R, it’s not a candidate key. 
+E+ = EDFGCABH; since it contains all of R, it’s a candidate key.
+F+ = FCABGHED; since it contains all of R, it’s a candidate key.
+G+ = G; since it doesn’t contain all of R, it’s not a candidate key. 
+H+ = HEADFBGC; since it contains all of R, it’s a candidate key.
+
+So, all candidate keys (i.e., minimal keys) of relation R are: A, B, C, E, F, H.
