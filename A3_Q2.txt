@@ -1,0 +1,129 @@
+Question 2 (20 marks) Functional Dependencies, BCNF
+The Department has a database containing information about all lectures during a term. The Schedule
+relation has the following schema:
+Schedule (C, D, T, R, P, A)
+where C represents a course, D for day (weekday), T for time, R for room, P for professor, and
+A for head TA. The set of functional dependencies F defined over Schedule are:
+F = {RDT → P, RDT → C, C → A, P DT → R, P DT → C, CDT → P, CDT → R}
+Answer the following questions:
+(a) (4 marks) Is the FD RDT → AP entailed by F ? Explain and show your work with references
+to Armstrong’s axioms for each line in your proof.
+(b) (6 marks) Find all the key(s) of relation Schedule. Show your work (i.e., how each key is
+derived).
+(c) (4 marks) Is Schedule in BCNF? If not, decompose it into smaller relations that are each in
+BCNF. Show your work at each step.
+(d) (6 marks) We can create a new relation ProfsSchedule(D, T, P ) by projecting some at-
+tributes of Schedule. Are there new functional dependencies that hold over ProfsSchedule?
+If so, state these FDs. If not, state why not. In both cases, show your work at each step to justify
+your answer.
+
+Answer to the Question Number 2(a)
+
+
+RDT → P is the first FD. 
+
+Next, RDT → C, C → A (second and third FDs) becomes RDT → A by transitivity. 
+
+Next, by Union from Armstrong’s axiom, we can combine RDT → A and RDT → P. It becomes RDT → AP.
+
+So, the FD RDT → AP is entailed by F.
+
+
+
+
+
+
+Answer to the Question Number 2(b)
+
+Let’s compute the closure of RDT, RDT+ = RDTPCA. 
+
+How this closure is computed is provided below.
+LHS contains RDT. So, add RDT to the closure. Next, RDT → P. So, add P to the closure. Next, RDT → C. So, add C to the closure. Finally, C → A. So, add A to the closure. So, RDT+ = RDTPCA. 
+
+
+Since the closure of RDT contains all of the relation Schedule, it is a key.
+
+Next, let’s compute the closure of PDT, PDT+ = PDTRCA. 
+
+How this closure is computed is provided below.
+LHS contains PDT. So, add PDT to the closure. Next, PDT → R. So, add R to the closure. Next, PDT → C. So, add C to the closure. Finally, C → A. So, add A to the closure. So, PDT+ = PDTRCA. 
+
+
+Since the closure of PDT contains all of the relation Schedule, it is a key.
+
+Next, let’s compute the closure of CDT, CDT+ = CDTPRA. 
+
+How this closure is computed is provided below.
+LHS contains CDT. So, add CDT to the closure. Next, CDT → P. So, add P to the closure. Next, CDT → R. So, add R to the closure. Finally, CDT itself contains C. It means we can use C → A. So, add A to the closure. So, CDT+ = CDTPRA. 
+
+
+Since the closure of CDT contains all of the relation Schedule, it is a key.
+
+Therefore, all the key(s) of relation Schedule are RDT, PDT, and CDT.
+
+
+Answer to the Question Number 2(c)
+
+The schedule is not in BCNF. The violating FD is C → A. Let’s decompose it.
+
+R = {C,D,T,R,P,A}
+
+C+ = {C,A}
+
+So, R1 = C+ = {C,A}
+R2 = R - C+ U C = {C,D,T,R,P,A} -  {C,A} U {C} = {C,D,T,R,P}
+
+Now, R1 doesn’t violate BCNF (All non-trivial FDs have superkey LHS). So, C is a key for R1. So, R1 is in BCNF.
+Next, the FDs that R2 entails are RDT→P, RDT→C, PDT→R, PDT→C, CDT→P and CDT→R. (the FD C→A no longer applies since A is not in R2​.).
+
+
+So, RDT, PDT and CDT are keys of R2. All FDs in R2 have LHS, which is a superkey. So, R2​ is in BCNF.
+
+Thus, the decomposition yields two BCNF relations: R1(C,A) and R2(C,D,T,R,P).
+
+
+
+
+
+
+
+
+
+
+Answer to the Question Number 2(d)
+
+The projection occurs onto attributes {D,T,P}.
+Closure computations (under the full FD set F)
+ ∅+=∅. Intersection with {D,T,P} = ∅. ⇒ no FD.
+
+
+{D}+={D} (no FD has LHS = D). Intersection = {D}. ⇒ no non-trivial FD from D.
+
+
+{T}+={T}. Intersection = {T}. ⇒ no non-trivial FD from T.
+
+
+{P}+={P}. (There is no FD with LHS = P alone.) Intersection = {P}.
+ ⇒ no non-trivial FD from P.
+
+
+{D, T}⁺ = {D, T}
+ (RDT → … and CDT → … require R or C, not derivable from {D,T}.)
+ Intersection = {D, T} → no non-trivial FD (so DT → P does not hold).
+
+
+{D, P}⁺ = {D, P}
+ (PDT → … requires T.)
+ Intersection = {D, P} → no non-trivial FD.
+
+
+{T, P}⁺ = {T, P}
+ (PDT → … requires D.)
+ Intersection = {T, P} → no non-trivial FD.
+
+
+{D, T, P}⁺ = whole relation (contains D, T, P of course)
+ Intersection = {D, T, P} → only trivial FDs from this LHS.
+
+
+In conclusion, no non-trivial functional dependencies among D, T, and P are implied by the original FD set F. Therefore, the only FDs that hold on ProfsSchedule(D, T, P) are the trivial ones (X → X and subsets thereof), which means projected FD set on ProfsSchedule(D,T,P): ∅ (no non-trivial FDs).
