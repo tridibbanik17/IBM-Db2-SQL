@@ -1,0 +1,41 @@
+Question 3 (10 marks) Armstrong’s Axioms
+Prove the following using Armstrong’s axioms (using only the axioms presented in class). Show all
+the steps of your proof, and indicate which of Armstrong’s axioms is applied in each step.
+a) (5 marks) Consider the schema R(A, B, C, D, E, F ), and the following functional dependen-
+cies: {A → BCD, BC → DE, B → D, D → A}. Show that AF is a superkey.
+b) (5 marks) Given the relational schema R(A, B, C, D, E, F ) and the FDs F1: {AB → C,
+A → D, CD → EF }. Show that AB → F 
+
+Answer to the Question Number 3(a)
+
+By decomposition, 
+A→BCD (given) becomes A→BC and A→D …(i)
+
+By transitivity, 
+A→BC (from (i)) and BC→DE (given) implies A→DE …(ii)
+
+From (i) and (ii), by union,
+A→BC and A→DE becomes A→BCDE
+
+By augmentation (with F),
+A→BCDE becomes AF→BCDEF
+
+Now, compute the closure based on AF→BCDEF. 
+AF⁺ = ABCDEF
+
+Since the closure of AF contains all attributes of relation R, it is a superkey.
+
+
+Answer to the Question Number 3(b)
+
+By augmentation (with B), A→D (given) becomes AB→DB …(i)
+
+By decomposition, AB→DB (from (i)) becomes AB→D and AB→B …(ii)
+
+By union, AB→C (given) and AB→D (from (ii)) implies AB→CD …(iii)
+
+By transitivity, AB→CD (from (iii)) and CD→EF (given) implies AB→EF …(iv)
+
+By decomposition, AB→EF (from (iv)) can be decomposed to AB→E and AB→F …(v)
+
+From (v), AB→F.
